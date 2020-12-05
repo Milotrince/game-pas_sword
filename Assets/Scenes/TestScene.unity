@@ -2539,8 +2539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1890e0f804c284533baaf73d1dbd9d9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraTransform: {fileID: 0}
-  TargetTransform: {fileID: 0}
+  CameraTransform: {fileID: 519420032}
+  TargetTransform: {fileID: 554462620}
   LerpValue: 0.008
 --- !u!50 &554462623
 Rigidbody2D:

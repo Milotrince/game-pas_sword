@@ -4,8 +4,7 @@ public class Sword
 {
     public readonly float BaseDamage;
     public readonly float SwingSpeed;
-    public readonly float SwingCooldown;
-    public readonly float SwingRange;
+    public readonly float SwingAngle;
     public readonly Password Password;
 
     public Sword(Password password)
@@ -13,9 +12,8 @@ public class Sword
         Password = password;
         // TODO: make not arbitrary calculation
         BaseDamage = password.CalculateCombinations().y;
-        SwingSpeed = 1f;
-        SwingCooldown = 0.1f;
-        SwingRange = Mathf.PI/4f;
+        SwingSpeed = 10f;
+        SwingAngle = 120f;
     }
 
 }

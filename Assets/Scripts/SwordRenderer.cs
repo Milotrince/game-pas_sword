@@ -2,15 +2,23 @@
 
 public class SwordRenderer : MonoBehaviour
 {
-    public SpriteRenderer spriteRenderer;
-    private Sprite swordSprite;
-    private Sword sword;
+    public SpriteRenderer SpriteRenderer;
+    private Sword _sword;
 
 
-    void Awake () {
-        sword = new Sword("1234");
-        Vector2Int swordSize = sword.GetSize();
-        Color color = sword.GetColor();
+    public void SetSword(Sword sword) {
+        this._sword = sword;
+        DrawSwordSprite();
+    }
+
+    private void DrawSwordSprite() {
+        string password = _sword.Password.String;
+
+        // TODO: make not arbitrary calculation
+        Color color = Color.HSVToRGB(Random.value, 1, 1);
+        int width = Mathf.Clamp( Mathf.RoundToInt(_sword.BaseDamage/ 100f), 1, 5 );
+
+        Vector2Int swordSize = new Vector2Int(width, _sword.Password.String.Length);
 
         // texture size oriented →, sword size oriented ↓
      
@@ -39,9 +47,9 @@ public class SwordRenderer : MonoBehaviour
 
         Rect rect = new Rect(Vector2.zero, textureSize);
         Vector2Int pivot = new Vector2Int(0, Mathf.CeilToInt(swordSize.x/2f));
-        swordSprite = Sprite.Create(texture, rect, pivot, 8f);
+        Sprite swordSprite = Sprite.Create(texture, rect, pivot, 8f);
 
-        spriteRenderer.sprite = swordSprite;
+        SpriteRenderer.sprite = swordSprite;
     }
 
 }

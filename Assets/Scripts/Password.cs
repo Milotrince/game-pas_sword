@@ -9,7 +9,8 @@ public class Password
 {
     public readonly string String;
 
-    public Password(string password) {
+    public Password(string password)
+    {
         String = password;
     }
 
@@ -17,7 +18,8 @@ public class Password
     /// vector2 in "scientific notation" since actual number can get very large.
     /// x * 10^y
     /// </returns>
-    public Vector2 CalculateCombinations() {
+    public Vector2 CalculateCombinations()
+    {
         int chars = 10 + 26 + 26 + 33;
         float e = String.Length*Mathf.Log10(chars);
         float y = Mathf.Floor(e);
@@ -28,7 +30,8 @@ public class Password
     /// <returns>
     /// 0f to 1f
     /// </returns>
-    public float CalculateComplexity() {
+    public float CalculateComplexity()
+    {
         float charpool = 0f;
         float maxCharpool = 10f + 26f + 26f + 33f;
         if (HasNumbers())
@@ -44,19 +47,23 @@ public class Password
         return charpoolComplexity;
     }
 
-    public bool HasNumbers() {
+    public bool HasNumbers()
+    {
         return (new Regex("[0-9])")).IsMatch(String);
     }
 
-    public bool HasLowerLetters() {
+    public bool HasLowerLetters()
+    {
         return (new Regex("[a-z])")).IsMatch(String);
     }
 
-    public bool HasUpperLetters() {
+    public bool HasUpperLetters()
+    {
         return (new Regex("[A-Z])")).IsMatch(String);
     }
 
-    public bool HasSpecial() {
+    public bool HasSpecial()
+    {
         return (new Regex("[ -/:-@[-`{-~]")).IsMatch(String);
     }
 

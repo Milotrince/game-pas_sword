@@ -8,7 +8,8 @@ public class Sword
     public readonly float SwingRange;
     public readonly Password Password;
 
-    public Sword(Password password) {
+    public Sword(Password password)
+    {
         Password = password;
         // TODO: make not arbitrary calculation
         BaseDamage = password.CalculateCombinations().y;

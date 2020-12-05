@@ -6,12 +6,14 @@ public class SwordRenderer : MonoBehaviour
     private Sword _sword;
 
 
-    public void SetSword(Sword sword) {
+    public void SetSword(Sword sword)
+    {
         this._sword = sword;
         DrawSwordSprite();
     }
 
-    private void DrawSwordSprite() {
+    private void DrawSwordSprite()
+    {
         string password = _sword.Password.String;
 
         // TODO: make not arbitrary calculation
@@ -26,7 +28,8 @@ public class SwordRenderer : MonoBehaviour
         Texture2D texture = new Texture2D(textureSize.x, textureSize.y, TextureFormat.RGBA32, false);
 
         Color[] allClearPixels = new Color[textureSize.x * textureSize.y];
-        for (int i = 0; i < allClearPixels.Length; i++) {
+        for (int i = 0; i < allClearPixels.Length; i++)
+        {
             allClearPixels[i] = Color.clear;
         }
         texture.SetPixels(allClearPixels);
@@ -36,8 +39,10 @@ public class SwordRenderer : MonoBehaviour
         texture.SetPixel(1, swordSize.x+1, color);
 
         // Blade
-        for (int i = 1; i < swordSize.x+1; i++) {
-            for (int j = 0; j < swordSize.y; j++) {
+        for (int i = 1; i < swordSize.x+1; i++)
+        {
+            for (int j = 0; j < swordSize.y; j++)
+            {
                 texture.SetPixel(j, i, color);
             }
         }

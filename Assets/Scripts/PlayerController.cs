@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 ///<remarks>
@@ -18,7 +19,8 @@ public class PlayerController: MonoBehaviour
     private SwordRenderer _swordRenderer;
     [SerializeField] private Sword _sword;
 
-    void Awake() {
+    void Awake()
+    {
         _sword = new Sword(new Password("0123"));
         _swordRenderer = GetComponentInChildren<SwordRenderer>();
         _swordRenderer.SetSword(_sword);
@@ -31,15 +33,18 @@ public class PlayerController: MonoBehaviour
         _childTransforms = allTransforms.ToArray();
     }
 
-    void onEnable() {
+    void onEnable()
+    {
         _inputActions.Enable();
     }
 
-    void onDisable() {
+    void onDisable()
+    {
         _inputActions.Disable();
     }
 
-    void Update() {
+    void Update()
+    {
         // movement
         _moveVector = _inputActions.Player.Movement.ReadValue<Vector2>();
         UpdateSprite();
@@ -48,11 +53,13 @@ public class PlayerController: MonoBehaviour
         
     }
 
-    void FixedUpdate() {
+    void FixedUpdate()
+    {
         Rigidbody.velocity = _moveVector * MoveSpeed;
     }
 
-    void UpdateSprite() {
+    void UpdateSprite()
+    {
         float epsilon = 0.01f;
         bool shouldFlipLeft = !_flipped && _moveVector.x < -epsilon;
         bool shouldFlipRight = _flipped && _moveVector.x > epsilon;
@@ -65,6 +72,14 @@ public class PlayerController: MonoBehaviour
             }
             _flipped = !_flipped;
         }
+    }
+
+    IEnumerator Swing()
+    {
+        for (float ft = 1f; ft >= 0; ft -= 0.1f) {
+            yield return null;
+        }
+
     }
 
 }

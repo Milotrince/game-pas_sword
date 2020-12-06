@@ -43,7 +43,18 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator FollowXBehavior()
     {
-        yield return null;
+        float lastEmitTime = float.MinValue;
+        while (_alive)
+        {
+            if (Time.time - lastEmitTime < _enemy.EmitCooldown)
+            {
+                EmitProjectile();
+                lastEmitTime = Time.time;
+            }
+            // transform.position += Vector3.up * _enemy.;
+            yield return new WaitForFixedUpdate();
+        }
+        Die();
     }
 
     private IEnumerator FollowYBehavior()

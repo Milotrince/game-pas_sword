@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TrackingProjectileController : ProjectileController
 {
+    public float Lifespan = 5f;
+    public float VelocityCorrectionDelay = 1f;
     private Vector3 _velocity = new Vector3();
     private Transform target;
-    private float _velocityCorrectionDelay = 1f;
-    private float _lifespan = 5f;
     private float _lastCorrected = float.MinValue;
     private float _startTime;
 
@@ -19,13 +19,13 @@ public class TrackingProjectileController : ProjectileController
 
     protected override void UpdateProjectile()
     {
-        if (Time.time - _startTime > _lifespan)
+        if (Time.time - _startTime > Lifespan)
         {
             Destroy(gameObject);
             return;
         }
 
-        if (Time.time - _lastCorrected > _velocityCorrectionDelay)
+        if (Time.time - _lastCorrected > VelocityCorrectionDelay)
         {
             UpdateVelocity();
             _lastCorrected = Time.time;

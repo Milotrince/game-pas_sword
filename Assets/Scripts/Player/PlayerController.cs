@@ -15,11 +15,15 @@ public class PlayerController: MonoBehaviour
     private Sword _sword;
     private bool _flipped = false;
 
+    public void SetPassword(Password password)
+    {
+        _sword = new Sword(password);
+        _swordController.SetSword(_sword);
+    }
+
     void Start()
     {
-        _sword = new Sword(new Password("01234"));
         _swordController = GetComponentInChildren<SwordController>();
-        _swordController.SetSword(_sword);
 
         _inputActions = new PlayerInputAction();
         _inputActions.Enable();

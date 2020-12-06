@@ -9,11 +9,11 @@ public class SwordController : MonoBehaviour
     private bool _swinging = false;
     private BoxCollider2D _collider;
     private SpriteRenderer _spriteRenderer;
-    private TrailRenderer _trail;
+    // private TrailRenderer _trail;
     private bool _initialized = false;
 
     void Start() {
-        _trail.emitting = false;
+        // _trail.emitting = false;
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -45,7 +45,7 @@ public class SwordController : MonoBehaviour
         float angle = transform.rotation.z;
         swordCenter.x = _collider.size.x * Mathf.Cos(angle) / 2f;
         swordCenter.y = _collider.size.y * Mathf.Sin(angle) / 2f;
-        _trail.transform.localPosition = swordCenter;
+        // _trail.transform.localPosition = swordCenter;
     }
 
     private Vector2Int CalculateSwordSize()
@@ -68,8 +68,8 @@ public class SwordController : MonoBehaviour
         _spriteRenderer = gameObject.AddComponent<SpriteRenderer>() as SpriteRenderer;
         DrawSwordSprite(size);
 
-        _trail = GetComponentInChildren<TrailRenderer>();
-        _trail.emitting = false;
+        // _trail = GetComponentInChildren<TrailRenderer>();
+        // _trail.emitting = false;
         // TODO: Later: fix trail
         // _trail.startWidth = size.x/4f; 
     }
@@ -118,7 +118,7 @@ public class SwordController : MonoBehaviour
     {
         _swinging = true;
         _collider.enabled = true;
-        _trail.emitting = true;
+        // _trail.emitting = true;
 
         float angle = _sword.SwingAngle/2f;
         float targetAngle = -angle;
@@ -131,7 +131,7 @@ public class SwordController : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         _collider.enabled = false;
-        _trail.emitting = false;
+        // _trail.emitting = false;
         yield return new WaitForSeconds(1f/_sword.SwingSpeed);
 
         transform.localRotation = Quaternion.identity;

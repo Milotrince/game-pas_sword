@@ -21,7 +21,6 @@ public class TrackingProjectileController : ProjectileController
     {
         float elapsed = Time.time - _startTime;
         float alpha = Mathf.Clamp01(1.5f - Mathf.Pow(elapsed / Lifespan, 0.5f));
-        Debug.Log(alpha);
         Color c = _spriteRenderer.color;
         _spriteRenderer.color = new Color(c.r, c.g, c.b, alpha);
         if (elapsed > Lifespan)

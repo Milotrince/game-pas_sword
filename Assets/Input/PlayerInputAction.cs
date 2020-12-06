@@ -165,7 +165,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
             ""actions"": [
                 {
                     ""name"": ""Point"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""7ffff833-6375-4e36-9501-e5537fc0b1d5"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
@@ -173,7 +173,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Click"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""fc884f81-43fe-4c57-8764-548ac54b1906"",
                     ""expectedControlType"": """",
                     ""processors"": """",
@@ -205,7 +205,7 @@ public class @PlayerInputAction : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Navigate"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""60f72b1e-9242-4081-bf6a-ceaf285b3eb6"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",

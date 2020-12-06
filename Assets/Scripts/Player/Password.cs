@@ -8,6 +8,11 @@ using System.Text.RegularExpressions;
 public class Password
 {
     public readonly string String;
+    public static char[] AllChars = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[/]^_`abcdefghijklmnopqrstuvwxyz{|}~".ToCharArray();
+    public static char[] NumberChars = "0123456789".ToCharArray();
+    public static char[] LowerChars = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
+    public static char[] UpperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+    public static char[] SpecialChars = "!\"#$%&'()*+,-./:;<=>?@[/]^_`{|}~".ToCharArray();
 
     public Password(string password)
     {

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public abstract class ProjectileController : MonoBehaviour
 {
@@ -12,22 +10,24 @@ public abstract class ProjectileController : MonoBehaviour
     private int _bounces;
     private Color _bounceColor = new Color(0f, 0.8f, 0f);
     private Color _bounceColor1 = Color.green;
+    private GameManager _gm;
 
-    protected virtual void Initialize() {}
+    protected virtual void _Initialize() {}
     protected virtual void UpdateProjectile() {}
     protected virtual void OnBounce() {}
 
-    public void SetProjectile(Projectile projectile, char character, float angle)
+    public void Initialize(Projectile projectile, char character, float angle, GameManager gm)
     {
         _projectile = projectile;
         _char = character;
         _angle = angle;
-        Initialize();
+        _gm = gm;
+        _Initialize();
     }
+
 
     void Start()
     {
-        // string chars = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[/]^_`abcdefghijklmnopqrstuvwxyz{|}~";
         _bounces = _projectile.Bounces;
 
         Sprite[] sprites = Resources.LoadAll<Sprite>("Sprites/mem5x6");
@@ -51,7 +51,7 @@ public abstract class ProjectileController : MonoBehaviour
 
         if (collider.tag == "Player")
         {
-            // TODO: damage player
+            _gm.DamagePlayer(_projectile);
             Destroy(gameObject);
         }
         if (collider.tag == "Wall")

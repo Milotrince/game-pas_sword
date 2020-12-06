@@ -4,20 +4,13 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-
-    void Start()
-    {
-        char[] chars = new char[3] {'a', 'b', 'c'};
-        Projectile projectile = new Projectile(0.2f, bounces: 2);
-        Enemy enemy = new Enemy(chars, 1f, projectile);
-        SpawnEnemy(enemy);
-    }
+    public GameObject EnemyPrefab;
+    public Sprite[] EnemySprites;
 
     public void SpawnEnemy(Enemy enemy) {
-        // GameObject enemyObject = new GameObject();
-        GameObject enemyObject = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+        GameObject enemyObject = Instantiate(EnemyPrefab, transform.position, Quaternion.identity);
         EnemyController controller = enemyObject.AddComponent<EnemyController>() as EnemyController;
         controller.SetEnemy(enemy);
     }
+
 }

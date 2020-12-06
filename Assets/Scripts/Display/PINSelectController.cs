@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
-public class PINSelectManager : MonoBehaviour
+public class PINSelectController: MonoBehaviour
 {
 
     public Text TopText;

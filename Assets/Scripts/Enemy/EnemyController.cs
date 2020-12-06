@@ -1,12 +1,18 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    private Enemy _enemy;
+    private GameManager _gm;
     private bool _alive;
+    private Enemy _enemy;
     private Vector2 _direction;
+
+    void Start()
+    {
+        _gm = FindObjectOfType<GameManager>() as GameManager;
+        _gm.AddToEnemyCount(1);
+    }
 
     public void SetEnemy(Enemy enemy)
     {
@@ -29,6 +35,12 @@ public class EnemyController : MonoBehaviour
                 StartCoroutine(ManueverBehavior());
                 break;
         }
+    }
+
+    public void Die()
+    {
+        _gm.AddToEnemyCount(-1);
+        Destroy(gameObject);
     }
 
     private IEnumerator StationaryBehavior()
@@ -80,12 +92,8 @@ public class EnemyController : MonoBehaviour
         int randomCharIndex = Mathf.RoundToInt(Random.Range(0,_enemy.Chars.Length-1));
         char randomChar = _enemy.Chars[randomCharIndex];
         float angle = Vector2.Angle(Vector2.right, _direction);
-        controller.SetProjectile(_enemy.Projectile, randomChar, angle);
+        controller.Initialize(_enemy.Projectile, randomChar, angle, _gm);
     }
 
-    private void Die()
-    {
-        Destroy(gameObject);
-    }
 
 }

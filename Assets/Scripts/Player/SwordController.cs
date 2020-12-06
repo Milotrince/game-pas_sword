@@ -20,7 +20,8 @@ public class SwordController : MonoBehaviour
     {
         if (collider.gameObject.tag == "Enemy")
         {
-            Debug.Log("sword hit enemy");
+            EnemyController enemy = collider.gameObject.GetComponent<EnemyController>() as EnemyController;
+            enemy.Die();
         }
     }
 

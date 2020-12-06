@@ -6,7 +6,7 @@ public class SimpleProjectileController : ProjectileController
 {
     private Vector3 _velocity = new Vector3();
 
-    protected override void Initialize() {
+    protected override void _Initialize() {
         float v = _projectile.Speed;
         _velocity.x = v * Mathf.Cos(_angle);
         _velocity.y = v * Mathf.Sin(_angle);

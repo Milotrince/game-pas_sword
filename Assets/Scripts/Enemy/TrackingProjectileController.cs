@@ -11,7 +11,7 @@ public class TrackingProjectileController : ProjectileController
     private float _lastCorrected = float.MinValue;
     private float _startTime;
 
-    protected override void Initialize()
+    protected override void _Initialize()
     {
         target = FindObjectOfType<PlayerController>().transform;
         _startTime = Time.time;

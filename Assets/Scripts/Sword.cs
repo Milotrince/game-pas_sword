@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Sword
 {
-    public readonly float BaseDamage;
     public readonly float SwingSpeed;
     public readonly float SwingAngle;
     public readonly Password Password;
@@ -10,10 +9,9 @@ public class Sword
     public Sword(Password password)
     {
         Password = password;
-        // TODO: make not arbitrary calculation
-        BaseDamage = password.CalculateCombinations().y;
+        // TODO: not arbitrary number
         SwingSpeed = 10f;
-        SwingAngle = 120f;
+        SwingAngle = 180f;
     }
 
 }

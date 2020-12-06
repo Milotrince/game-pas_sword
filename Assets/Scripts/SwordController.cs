@@ -5,22 +5,15 @@ using UnityEngine;
 public class SwordController : MonoBehaviour
 {
 
-
     private Sword _sword;
     private bool _swinging = false;
     private BoxCollider2D _collider;
     private SpriteRenderer _spriteRenderer;
+    private TrailRenderer _trail;
+    private bool _initialized = false;
 
-
-    public void SetSword(Sword sword)
-    {
-        this._sword = sword;
-        CreateComponents();
-    }
-
-    public void SwingSword() {
-        if (!_swinging)
-            StartCoroutine(SwingAnimation());
+    void Start() {
+        _trail.emitting = false;
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -29,12 +22,36 @@ public class SwordController : MonoBehaviour
         {
             Debug.Log("sword hit enemy");
         }
+    }
 
+    public void SetSword(Sword sword)
+    {
+        this._sword = sword;
+        CreateComponents();
+        _initialized = true;
+    }
+
+    public void SwingSword() {
+        if (!_swinging)
+            StartCoroutine(SwingAnimation());
+    }
+
+
+    void Update() {
+        if (!_initialized)
+            return;
+
+        Vector3 swordCenter = new Vector3();
+        float angle = transform.rotation.z;
+        swordCenter.x = _collider.size.x * Mathf.Cos(angle) / 2f;
+        swordCenter.y = _collider.size.y * Mathf.Sin(angle) / 2f;
+        _trail.transform.localPosition = swordCenter;
     }
 
     private Vector2Int CalculateSwordSize()
     {
-        int width = Mathf.Clamp( Mathf.RoundToInt(_sword.BaseDamage/ 100f), 1, 5 );
+        Vector2 complexity = _sword.Password.CalculateCombinations();
+        int width = Mathf.Clamp( Mathf.RoundToInt(complexity.y/ 100f), 1, 5 );
         int length = _sword.Password.String.Length;
         return new Vector2Int(length, width+2);
     }
@@ -45,11 +62,16 @@ public class SwordController : MonoBehaviour
 
         _collider = gameObject.AddComponent<BoxCollider2D>() as BoxCollider2D;
         _collider.size = new Vector2(size.x, size.y) / 8f;
-        _collider.offset = _collider.size / 2f * Vector2.down;
+        _collider.offset = _collider.size / 2f * new Vector2(1, -1);
         _collider.enabled = false;
 
         _spriteRenderer = gameObject.AddComponent<SpriteRenderer>() as SpriteRenderer;
         DrawSwordSprite(size);
+
+        _trail = GetComponentInChildren<TrailRenderer>();
+        _trail.emitting = false;
+        // TODO: Later: fix trail
+        // _trail.startWidth = size.x/4f; 
     }
 
     private void DrawSwordSprite(Vector2Int size)
@@ -96,6 +118,7 @@ public class SwordController : MonoBehaviour
     {
         _swinging = true;
         _collider.enabled = true;
+        _trail.emitting = true;
 
         float angle = _sword.SwingAngle/2f;
         float targetAngle = -angle;
@@ -108,10 +131,12 @@ public class SwordController : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
         _collider.enabled = false;
+        _trail.emitting = false;
         yield return new WaitForSeconds(1f/_sword.SwingSpeed);
 
         transform.localRotation = Quaternion.identity;
         _swinging = false;
     }
+
 
 }

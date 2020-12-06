@@ -1,0 +1,2656 @@
+fileFormatVersion: 2
+guid: cb5520323b478414ba1c11133005dd21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6429507737142990368
+    second: mem-prop-5x6-sheet 1_0
+  - first:
+      213: -5697872423140902433
+    second: mem-prop-5x6-sheet 1_1
+  - first:
+      213: -5610571794475749778
+    second: mem-prop-5x6-sheet 1_2
+  - first:
+      213: 7567134209405192930
+    second: mem-prop-5x6-sheet 1_3
+  - first:
+      213: -2433641588676215284
+    second: mem-prop-5x6-sheet 1_4
+  - first:
+      213: 4346954464327259409
+    second: mem-prop-5x6-sheet 1_5
+  - first:
+      213: 8468757983782290709
+    second: mem-prop-5x6-sheet 1_6
+  - first:
+      213: 6375325991190443520
+    second: mem-prop-5x6-sheet 1_7
+  - first:
+      213: 1647400914473873604
+    second: mem-prop-5x6-sheet 1_8
+  - first:
+      213: 4419338624775121642
+    second: mem-prop-5x6-sheet 1_9
+  - first:
+      213: -7842864705758041246
+    second: mem-prop-5x6-sheet 1_10
+  - first:
+      213: -6351558739805905166
+    second: mem-prop-5x6-sheet 1_11
+  - first:
+      213: -5552860525425443563
+    second: mem-prop-5x6-sheet 1_12
+  - first:
+      213: -3388885272372822247
+    second: mem-prop-5x6-sheet 1_13
+  - first:
+      213: -3416618702525553933
+    second: mem-prop-5x6-sheet 1_14
+  - first:
+      213: 3935604085098089618
+    second: mem-prop-5x6-sheet 1_15
+  - first:
+      213: -8754723541029695766
+    second: mem-prop-5x6-sheet 1_16
+  - first:
+      213: -1750260027052210102
+    second: mem-prop-5x6-sheet 1_17
+  - first:
+      213: -7625689611666201376
+    second: mem-prop-5x6-sheet 1_18
+  - first:
+      213: -537558090685047342
+    second: mem-prop-5x6-sheet 1_19
+  - first:
+      213: 5607488457593227922
+    second: mem-prop-5x6-sheet 1_20
+  - first:
+      213: 6209994553170968570
+    second: mem-prop-5x6-sheet 1_21
+  - first:
+      213: 2321168880703894465
+    second: mem-prop-5x6-sheet 1_22
+  - first:
+      213: 4710714285721987919
+    second: mem-prop-5x6-sheet 1_23
+  - first:
+      213: -5641047797718028527
+    second: mem-prop-5x6-sheet 1_24
+  - first:
+      213: -4051174487212924422
+    second: mem-prop-5x6-sheet 1_25
+  - first:
+      213: -6059834283458326375
+    second: mem-prop-5x6-sheet 1_26
+  - first:
+      213: -431174801183426270
+    second: mem-prop-5x6-sheet 1_27
+  - first:
+      213: -5972993807332695143
+    second: mem-prop-5x6-sheet 1_28
+  - first:
+      213: 9153003990559975783
+    second: mem-prop-5x6-sheet 1_29
+  - first:
+      213: 8694030382902056106
+    second: mem-prop-5x6-sheet 1_30
+  - first:
+      213: 8857281133420874609
+    second: mem-prop-5x6-sheet 1_31
+  - first:
+      213: 7659516446420145028
+    second: mem-prop-5x6-sheet 1_32
+  - first:
+      213: 8798003477404448089
+    second: mem-prop-5x6-sheet 1_33
+  - first:
+      213: -6473872445134071720
+    second: mem-prop-5x6-sheet 1_34
+  - first:
+      213: -4134983738924705046
+    second: mem-prop-5x6-sheet 1_35
+  - first:
+      213: 5379547644324311469
+    second: mem-prop-5x6-sheet 1_36
+  - first:
+      213: 1426139109369886717
+    second: mem-prop-5x6-sheet 1_37
+  - first:
+      213: 4511558268685859271
+    second: mem-prop-5x6-sheet 1_38
+  - first:
+      213: -2379333764777369022
+    second: mem-prop-5x6-sheet 1_39
+  - first:
+      213: 9201335839207010628
+    second: mem-prop-5x6-sheet 1_40
+  - first:
+      213: -7282246492264948806
+    second: mem-prop-5x6-sheet 1_41
+  - first:
+      213: 9206021310968628401
+    second: mem-prop-5x6-sheet 1_42
+  - first:
+      213: -4131021756467064153
+    second: mem-prop-5x6-sheet 1_43
+  - first:
+      213: -7984481103781811033
+    second: mem-prop-5x6-sheet 1_44
+  - first:
+      213: -8052031573375508223
+    second: mem-prop-5x6-sheet 1_45
+  - first:
+      213: -3037542838294812046
+    second: mem-prop-5x6-sheet 1_46
+  - first:
+      213: 9131607797603632111
+    second: mem-prop-5x6-sheet 1_47
+  - first:
+      213: -6631088626282733287
+    second: mem-prop-5x6-sheet 1_48
+  - first:
+      213: -5486033089887705715
+    second: mem-prop-5x6-sheet 1_49
+  - first:
+      213: -5733993918133427260
+    second: mem-prop-5x6-sheet 1_50
+  - first:
+      213: 6559395783209487330
+    second: mem-prop-5x6-sheet 1_51
+  - first:
+      213: 5032287103003491259
+    second: mem-prop-5x6-sheet 1_52
+  - first:
+      213: 7762069261470684463
+    second: mem-prop-5x6-sheet 1_53
+  - first:
+      213: -8883326329406174082
+    second: mem-prop-5x6-sheet 1_54
+  - first:
+      213: -6966997858761476825
+    second: mem-prop-5x6-sheet 1_55
+  - first:
+      213: -2069868710262563081
+    second: mem-prop-5x6-sheet 1_56
+  - first:
+      213: -5654575923130269233
+    second: mem-prop-5x6-sheet 1_57
+  - first:
+      213: 1555574579253700936
+    second: mem-prop-5x6-sheet 1_58
+  - first:
+      213: 1621163054065576436
+    second: mem-prop-5x6-sheet 1_59
+  - first:
+      213: -3307784147781938309
+    second: mem-prop-5x6-sheet 1_60
+  - first:
+      213: 1881151919866467472
+    second: mem-prop-5x6-sheet 1_61
+  - first:
+      213: -223272616218189701
+    second: mem-prop-5x6-sheet 1_62
+  - first:
+      213: -670115521960711319
+    second: mem-prop-5x6-sheet 1_63
+  - first:
+      213: -1308045509347298766
+    second: mem-prop-5x6-sheet 1_64
+  - first:
+      213: 6396751455844009605
+    second: mem-prop-5x6-sheet 1_65
+  - first:
+      213: -6302486508400499315
+    second: mem-prop-5x6-sheet 1_66
+  - first:
+      213: 3767070504221653414
+    second: mem-prop-5x6-sheet 1_67
+  - first:
+      213: -3697192742574420756
+    second: mem-prop-5x6-sheet 1_68
+  - first:
+      213: 4817720456600148326
+    second: mem-prop-5x6-sheet 1_69
+  - first:
+      213: 6303654109388138980
+    second: mem-prop-5x6-sheet 1_70
+  - first:
+      213: -2485904394037830791
+    second: mem-prop-5x6-sheet 1_71
+  - first:
+      213: 358997733155542555
+    second: mem-prop-5x6-sheet 1_72
+  - first:
+      213: -8063033618019280880
+    second: mem-prop-5x6-sheet 1_73
+  - first:
+      213: -6907198057254995011
+    second: mem-prop-5x6-sheet 1_74
+  - first:
+      213: -7129555363259779170
+    second: mem-prop-5x6-sheet 1_75
+  - first:
+      213: -808813382623167399
+    second: mem-prop-5x6-sheet 1_76
+  - first:
+      213: -3853990573056792438
+    second: mem-prop-5x6-sheet 1_77
+  - first:
+      213: 1932040972213052359
+    second: mem-prop-5x6-sheet 1_78
+  - first:
+      213: 5702543953470961061
+    second: mem-prop-5x6-sheet 1_79
+  - first:
+      213: 2521745058108068424
+    second: mem-prop-5x6-sheet 1_80
+  - first:
+      213: 814588584416550873
+    second: mem-prop-5x6-sheet 1_81
+  - first:
+      213: 5849757198498083907
+    second: mem-prop-5x6-sheet 1_82
+  - first:
+      213: -6602669251937674877
+    second: mem-prop-5x6-sheet 1_83
+  - first:
+      213: 4654445983993397615
+    second: mem-prop-5x6-sheet 1_84
+  - first:
+      213: -3990952409683114552
+    second: mem-prop-5x6-sheet 1_85
+  - first:
+      213: -7546804881111631781
+    second: mem-prop-5x6-sheet 1_86
+  - first:
+      213: -5243975572594016956
+    second: mem-prop-5x6-sheet 1_87
+  - first:
+      213: 4409087327702303674
+    second: mem-prop-5x6-sheet 1_88
+  - first:
+      213: 6533015539024466305
+    second: mem-prop-5x6-sheet 1_89
+  - first:
+      213: 7236309788038740719
+    second: mem-prop-5x6-sheet 1_90
+  - first:
+      213: 8400065410277145446
+    second: mem-prop-5x6-sheet 1_91
+  - first:
+      213: -6847977215549580273
+    second: mem-prop-5x6-sheet 1_92
+  - first:
+      213: -9157694179565521949
+    second: mem-prop-5x6-sheet 1_93
+  - first:
+      213: -6125615320315000123
+    second: mem5x6_0
+  - first:
+      213: -328440931490273928
+    second: mem5x6_1
+  - first:
+      213: 2503328490874526547
+    second: mem5x6_2
+  - first:
+      213: -6694751932379182239
+    second: mem5x6_3
+  - first:
+      213: -3696682082068467350
+    second: mem5x6_4
+  - first:
+      213: -3640179873235706801
+    second: mem5x6_5
+  - first:
+      213: -2748685143746924393
+    second: mem5x6_6
+  - first:
+      213: -8604051870405234870
+    second: mem5x6_7
+  - first:
+      213: -5204379294154630593
+    second: mem5x6_8
+  - first:
+      213: -5778625176939005234
+    second: mem5x6_9
+  - first:
+      213: 2510030953611454059
+    second: mem5x6_10
+  - first:
+      213: 4453543434348828476
+    second: mem5x6_11
+  - first:
+      213: 5531885953713583752
+    second: mem5x6_12
+  - first:
+      213: -7758335449854119378
+    second: mem5x6_13
+  - first:
+      213: 4032596375850526370
+    second: mem5x6_14
+  - first:
+      213: -1189972279685823658
+    second: mem5x6_15
+  - first:
+      213: -8154821758544107845
+    second: mem5x6_16
+  - first:
+      213: -6566483503032372277
+    second: mem5x6_17
+  - first:
+      213: -7736666353379344333
+    second: mem5x6_18
+  - first:
+      213: -5283812612648654232
+    second: mem5x6_19
+  - first:
+      213: -5877724029858288064
+    second: mem5x6_20
+  - first:
+      213: 4289925274912863375
+    second: mem5x6_21
+  - first:
+      213: -7996860813140605518
+    second: mem5x6_22
+  - first:
+      213: -6639647969762758039
+    second: mem5x6_23
+  - first:
+      213: 3110107876832192897
+    second: mem5x6_24
+  - first:
+      213: -6267907180779621927
+    second: mem5x6_25
+  - first:
+      213: 7376652771383172127
+    second: mem5x6_26
+  - first:
+      213: -1965710398099543030
+    second: mem5x6_27
+  - first:
+      213: 7497388437823103812
+    second: mem5x6_28
+  - first:
+      213: -1258405179594609953
+    second: mem5x6_29
+  - first:
+      213: 3465567599755766086
+    second: mem5x6_30
+  - first:
+      213: -6526082485450232301
+    second: mem5x6_31
+  - first:
+      213: 8245367024480477234
+    second: mem5x6_32
+  - first:
+      213: 4211727432310003707
+    second: mem5x6_33
+  - first:
+      213: 3456900777456386495
+    second: mem5x6_34
+  - first:
+      213: -7796425799991151225
+    second: mem5x6_35
+  - first:
+      213: 2477478342439064321
+    second: mem5x6_36
+  - first:
+      213: -1651626944467524136
+    second: mem5x6_37
+  - first:
+      213: 8857406041632735351
+    second: mem5x6_38
+  - first:
+      213: 9171712566187417342
+    second: mem5x6_39
+  - first:
+      213: 795368168057206073
+    second: mem5x6_40
+  - first:
+      213: -5090148030019035744
+    second: mem5x6_41
+  - first:
+      213: 2511107484284304068
+    second: mem5x6_42
+  - first:
+      213: 3008375907155031997
+    second: mem5x6_43
+  - first:
+      213: 1162415219830671489
+    second: mem5x6_44
+  - first:
+      213: -1717240749924277975
+    second: mem5x6_45
+  - first:
+      213: -2884133225925677508
+    second: mem5x6_46
+  - first:
+      213: -5086978600000774200
+    second: mem5x6_47
+  - first:
+      213: -6020196306224598996
+    second: mem5x6_48
+  - first:
+      213: -3943420508866240534
+    second: mem5x6_49
+  - first:
+      213: 6971185260178393785
+    second: mem5x6_50
+  - first:
+      213: -6999833879623899674
+    second: mem5x6_51
+  - first:
+      213: 1900364908587972294
+    second: mem5x6_52
+  - first:
+      213: 1576809697381694551
+    second: mem5x6_53
+  - first:
+      213: 9039145273624920656
+    second: mem5x6_54
+  - first:
+      213: 541076315488220071
+    second: mem5x6_55
+  - first:
+      213: -5437831379127494346
+    second: mem5x6_56
+  - first:
+      213: -4183885503543785507
+    second: mem5x6_57
+  - first:
+      213: -4344511050349761082
+    second: mem5x6_58
+  - first:
+      213: -8681913868736275474
+    second: mem5x6_59
+  - first:
+      213: 3134223023227285691
+    second: mem5x6_60
+  - first:
+      213: -4728652221125086925
+    second: mem5x6_61
+  - first:
+      213: 7480134166171013570
+    second: mem5x6_62
+  - first:
+      213: 722224949232421514
+    second: mem5x6_63
+  - first:
+      213: 8210398411901773488
+    second: mem5x6_64
+  - first:
+      213: 4010291451370396360
+    second: mem5x6_65
+  - first:
+      213: -8173609683510371430
+    second: mem5x6_66
+  - first:
+      213: 8370516357070036379
+    second: mem5x6_67
+  - first:
+      213: -2671256540045041841
+    second: mem5x6_68
+  - first:
+      213: -8154610354601330412
+    second: mem5x6_69
+  - first:
+      213: 5663340172730130643
+    second: mem5x6_70
+  - first:
+      213: -2289018347131230090
+    second: mem5x6_71
+  - first:
+      213: 2118974002120909757
+    second: mem5x6_72
+  - first:
+      213: -9046803164491547289
+    second: mem5x6_73
+  - first:
+      213: -7323472382469041272
+    second: mem5x6_74
+  - first:
+      213: 5589376132925843854
+    second: mem5x6_75
+  - first:
+      213: 1781725702957536895
+    second: mem5x6_76
+  - first:
+      213: -2581429022420597392
+    second: mem5x6_77
+  - first:
+      213: 8509490745089846888
+    second: mem5x6_78
+  - first:
+      213: 8792594281008349581
+    second: mem5x6_79
+  - first:
+      213: 4796618112293385807
+    second: mem5x6_80
+  - first:
+      213: 80173587339462771
+    second: mem5x6_81
+  - first:
+      213: 1119978190438707557
+    second: mem5x6_82
+  - first:
+      213: 179202320982427620
+    second: mem5x6_83
+  - first:
+      213: -3150763965043951840
+    second: mem5x6_84
+  - first:
+      213: 5508514672431410176
+    second: mem5x6_85
+  - first:
+      213: -2550779863398952279
+    second: mem5x6_86
+  - first:
+      213: -1881085925863068777
+    second: mem5x6_87
+  - first:
+      213: 182575299781516965
+    second: mem5x6_88
+  - first:
+      213: 7671329046641984436
+    second: mem5x6_89
+  - first:
+      213: -8373676633849221960
+    second: mem5x6_90
+  - first:
+      213: 105982383980210002
+    second: mem5x6_91
+  - first:
+      213: 8267874729081445189
+    second: mem5x6_92
+  - first:
+      213: 2178382362271844210
+    second: mem5x6_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mem5x6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca0fe132517dfaa0800000000000000
+      internalID: -6125615320315000123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875e2d486b4217bf0800000000000000
+      internalID: -328440931490273928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd0becffb9db220800000000000000
+      internalID: 2503328490874526547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bcd2b76967713a0800000000000000
+      internalID: -6694751932379182239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61f1c27b3fb2bcc0800000000000000
+      internalID: -3696682082068467350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_5
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c524911bb7b7dc0800000000000000
+      internalID: -3640179873235706801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7903297cc65bad9d0800000000000000
+      internalID: -2748685143746924393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fe57bf864489880800000000000000
+      internalID: -8604051870405234870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ad38f1b9456c7b0800000000000000
+      internalID: -5204379294154630593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecafb6e94033ecfa0800000000000000
+      internalID: -5778625176939005234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66ee358adb65d220800000000000000
+      internalID: 2510030953611454059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37922c582a2ecd30800000000000000
+      internalID: 4453543434348828476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886321937f435cc40800000000000000
+      internalID: 5531885953713583752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22ff17830bd45490800000000000000
+      internalID: -7758335449854119378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a62919c909a6f730800000000000000
+      internalID: 4032596375850526370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653c3c0348e5c7fe0800000000000000
+      internalID: -1189972279685823658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb62a5311d044de80800000000000000
+      internalID: -8154821758544107845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_17
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3fa427b0a2fd4a0800000000000000
+      internalID: -6566483503032372277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3308b1531f6d1a490800000000000000
+      internalID: -7736666353379344333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a29537c602ca6b0800000000000000
+      internalID: -5283812612648654232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ee488e2212e6ea0800000000000000
+      internalID: -5877724029858288064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_21
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84b62cfe40e88b30800000000000000
+      internalID: 4289925274912863375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5438aa571750190800000000000000
+      internalID: -7996860813140605518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_23
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b5a0995b3bd3a0800000000000000
+      internalID: -6639647969762758039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1892abbc2a2592b20800000000000000
+      internalID: 3110107876832192897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1b28cb0abe309a0800000000000000
+      internalID: -6267907180779621927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1cd1b5cc922f5660800000000000000
+      internalID: 7376652771383172127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_27
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c2cf5cec468b4e0800000000000000
+      internalID: -1965710398099543030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4432193bf031c0860800000000000000
+      internalID: 7497388437823103812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda60ce082f398ee0800000000000000
+      internalID: -1258405179594609953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649ab80ee5b281030800000000000000
+      internalID: 3465567599755766086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_31
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e27df5e82be65a0800000000000000
+      internalID: -6526082485450232301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230e0e87f9d6d6270800000000000000
+      internalID: 8245367024480477234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_33
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf71b95f8cf037a30800000000000000
+      internalID: 4211727432310003707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb14f0011f069ff20800000000000000
+      internalID: 3456900777456386495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78536d9ca088dc390800000000000000
+      internalID: -7796425799991151225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103ddcb1d65c16220800000000000000
+      internalID: 2477478342439064321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ac817b0e3419e0800000000000000
+      internalID: -1651626944467524136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7700be6cdd3dbea70800000000000000
+      internalID: 8857406041632735351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_39
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe56913cf7784f70800000000000000
+      internalID: 9171712566187417342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935f3b28227b90b00800000000000000
+      internalID: 795368168057206073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 40
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad9f80e5592c59b0800000000000000
+      internalID: -5090148030019035744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca3799d3fe39d220800000000000000
+      internalID: 2511107484284304068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7b1d0d2f5efb920800000000000000
+      internalID: 3008375907155031997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c383db7ab12010800000000000000
+      internalID: 1162415219830671489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92120f2e2a22b28e0800000000000000
+      internalID: -1717240749924277975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e6ccf9c1089f7d0800000000000000
+      internalID: -2884133225925677508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_47
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf90fe4aeb6769b0800000000000000
+      internalID: -5086978600000774200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c203d591b57f37ca0800000000000000
+      internalID: -6020196306224598996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef9909b0f72649c0800000000000000
+      internalID: -3943420508866240534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba4f582f00aeb060800000000000000
+      internalID: 6971185260178393785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_51
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5e5465c289bde90800000000000000
+      internalID: -6999833879623899674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6f008d0d37f5a10800000000000000
+      internalID: 1900364908587972294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_53
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cb3d2c014f1e510800000000000000
+      internalID: 1576809697381694551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05280932cbe717d70800000000000000
+      internalID: 9039145273624920656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a37d0dca0a428700800000000000000
+      internalID: 541076315488220071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63912aaeb21f884b0800000000000000
+      internalID: -5437831379127494346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_57
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7cd5c3d4adfe5c0800000000000000
+      internalID: -4183885503543785507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cda429c73235b3c0800000000000000
+      internalID: -4344511050349761082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebdf6bc555a38780800000000000000
+      internalID: -8681913868736275474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0305adb3ffe7b20800000000000000
+      internalID: 3134223023227285691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313a7dbbd3706eb0800000000000000
+      internalID: -4728652221125086925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1d2e68466cec760800000000000000
+      internalID: 7480134166171013570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a4ceac3cbd50a00800000000000000
+      internalID: 722224949232421514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b626d5ead131f170800000000000000
+      internalID: 8210398411901773488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad7bcd3da67a730800000000000000
+      internalID: 4010291451370396360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bdba96c41819e80800000000000000
+      internalID: -8173609683510371430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_67
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d91c1274c0a2470800000000000000
+      internalID: 8370516357070036379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f1daa645acdead0800000000000000
+      internalID: -2671256540045041841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_69
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419f344661105de80800000000000000
+      internalID: -8154610354601330412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d067c5a1e9389e40800000000000000
+      internalID: 5663340172730130643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67824e6e0f5cb30e0800000000000000
+      internalID: -2289018347131230090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_72
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db364bcc0ab186d10800000000000000
+      internalID: 2118974002120909757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76df993347c437280800000000000000
+      internalID: -9046803164491547289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_74
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8839c886baccd5a90800000000000000
+      internalID: -7323472382469041272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e896717aaf3719d40800000000000000
+      internalID: 5589376132925843854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7697fb3616f9b810800000000000000
+      internalID: 1781725702957536895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_77
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0758cb92bfbec2cd0800000000000000
+      internalID: -2581429022420597392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eed885fb8c71670800000000000000
+      internalID: 8509490745089846888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8142a5d9e1950a70800000000000000
+      internalID: 8792594281008349581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46b37272c2019240800000000000000
+      internalID: 4796618112293385807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378ccb1f375dc1100800000000000000
+      internalID: 80173587339462771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_82
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561b845fa36fa8f00800000000000000
+      internalID: 1119978190438707557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_83
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 16
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7451dbf87ac7200800000000000000
+      internalID: 179202320982427620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02734740edc3644d0800000000000000
+      internalID: -3150763965043951840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_85
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c2d42c8ec227c40800000000000000
+      internalID: 5508514672431410176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_86
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2d2e59a3fc99cd0800000000000000
+      internalID: -2550779863398952279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_87
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79be1fc115a05e5e0800000000000000
+      internalID: -1881085925863068777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aedc309443a88200800000000000000
+      internalID: 182575299781516965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b34b3c9f19067a60800000000000000
+      internalID: 7671329046641984436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_90
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcad679779bacb80800000000000000
+      internalID: -8373676633849221960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e69daa66887100800000000000000
+      internalID: 105982383980210002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b1452d2446db270800000000000000
+      internalID: 8267874729081445189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mem5x6_93
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2778038873b2b3e10800000000000000
+      internalID: 2178382362271844210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

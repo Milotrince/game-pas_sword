@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 ///<remarks>
 /// Controls You and sword 
@@ -17,9 +15,9 @@ public class PlayerController: MonoBehaviour
     private Sword _sword;
     private bool _flipped = false;
 
-    void Awake()
+    void Start()
     {
-        _sword = new Sword(new Password("0123456789"));
+        _sword = new Sword(new Password("01234"));
         _swordController = GetComponentInChildren<SwordController>();
         _swordController.SetSword(_sword);
 

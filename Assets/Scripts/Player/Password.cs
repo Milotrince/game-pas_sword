@@ -8,6 +8,11 @@ using System.Text.RegularExpressions;
 public class Password
 {
     public readonly string String;
+    /// <remarks>
+    /// vector2 in "scientific notation" since actual number can get very large. x * 10^y
+    /// </remarks>
+    public readonly Vector2 Combinations;
+    public readonly float ComplexityScore;
     public static char[] AllChars = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[/]^_`abcdefghijklmnopqrstuvwxyz{|}~".ToCharArray();
     public static char[] NumberChars = "0123456789".ToCharArray();
     public static char[] LowerChars = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
@@ -17,13 +22,11 @@ public class Password
     public Password(string password)
     {
         String = password;
+        Combinations = CalculateCombinations();
+        ComplexityScore = CalculateComplexity();
     }
 
-    /// <returns>
-    /// vector2 in "scientific notation" since actual number can get very large.
-    /// x * 10^y
-    /// </returns>
-    public Vector2 CalculateCombinations()
+    private Vector2 CalculateCombinations()
     {
         int chars = 10 + 26 + 26 + 33;
         float e = String.Length*Mathf.Log10(chars);
@@ -35,7 +38,7 @@ public class Password
     /// <returns>
     /// 0f to 1f
     /// </returns>
-    public float CalculateComplexity()
+    private float CalculateComplexity()
     {
         float charpool = 0f;
         float maxCharpool = 10f + 26f + 26f + 33f;
@@ -49,22 +52,22 @@ public class Password
             charpool += 33;
         float charpoolComplexity = charpool/maxCharpool;
 
-        return charpoolComplexity;
+        return (charpoolComplexity);
     }
 
     public bool HasNumbers()
     {
-        return (new Regex("[0-9])")).IsMatch(String);
+        return (new Regex("[0-9]")).IsMatch(String);
     }
 
     public bool HasLowerLetters()
     {
-        return (new Regex("[a-z])")).IsMatch(String);
+        return (new Regex("[a-z]")).IsMatch(String);
     }
 
     public bool HasUpperLetters()
     {
-        return (new Regex("[A-Z])")).IsMatch(String);
+        return (new Regex("[A-Z]")).IsMatch(String);
     }
 
     public bool HasSpecial()

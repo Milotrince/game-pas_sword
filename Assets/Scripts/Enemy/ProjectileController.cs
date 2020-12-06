@@ -51,7 +51,7 @@ public abstract class ProjectileController : MonoBehaviour
 
         if (collider.tag == "Player")
         {
-            _gm.DamagePlayer(_projectile);
+            _gm.DamagePlayer(_projectile, _char);
             Destroy(gameObject);
         }
         if (collider.tag == "Wall")

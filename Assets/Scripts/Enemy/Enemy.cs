@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 public enum EnemyBehavior {
-    Stationary, FollowX, FollowY, Manuever
+    Stationary, Manuever
 }
 
 public enum EnemyEmitPattern {

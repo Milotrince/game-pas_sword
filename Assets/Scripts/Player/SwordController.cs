@@ -51,7 +51,7 @@ public class SwordController : MonoBehaviour
 
     private Vector2Int CalculateSwordSize()
     {
-        Vector2 complexity = _sword.Password.CalculateCombinations();
+        Vector2 complexity = _sword.Password.Combinations;
         int width = Mathf.Clamp( Mathf.RoundToInt(complexity.y/ 100f), 1, 5 );
         int length = _sword.Password.String.Length;
         return new Vector2Int(length, width+2);

@@ -14,22 +14,16 @@ public class EnemyController : MonoBehaviour
         _gm.AddToEnemyCount(1);
     }
 
-    public void SetEnemy(Enemy enemy)
+    public void SetEnemy(Enemy enemy, Vector2 direction)
     {
         _enemy = enemy;
-        _direction = Vector2.right;
+        _direction = direction;
         _alive = true;
 
         switch (_enemy.Behavior)
         {
             case EnemyBehavior.Stationary:
                 StartCoroutine(StationaryBehavior());
-                break;
-            case EnemyBehavior.FollowX:
-                StartCoroutine(FollowXBehavior());
-                break;
-            case EnemyBehavior.FollowY:
-                StartCoroutine(FollowYBehavior());
                 break;
             case EnemyBehavior.Manuever:
                 StartCoroutine(ManueverBehavior());
@@ -45,6 +39,7 @@ public class EnemyController : MonoBehaviour
 
     private IEnumerator StationaryBehavior()
     {
+        yield return new WaitForSeconds(1f);
         while (_alive)
         {
             EmitProjectile();
@@ -53,26 +48,6 @@ public class EnemyController : MonoBehaviour
         Die();
     }
 
-    private IEnumerator FollowXBehavior()
-    {
-        float lastEmitTime = float.MinValue;
-        while (_alive)
-        {
-            if (Time.time - lastEmitTime < _enemy.EmitCooldown)
-            {
-                EmitProjectile();
-                lastEmitTime = Time.time;
-            }
-            // transform.position += Vector3.up * _enemy.;
-            yield return new WaitForFixedUpdate();
-        }
-        Die();
-    }
-
-    private IEnumerator FollowYBehavior()
-    {
-        yield return null;
-    }
 
     private IEnumerator ManueverBehavior()
     {
@@ -91,7 +66,13 @@ public class EnemyController : MonoBehaviour
 
         int randomCharIndex = Mathf.RoundToInt(Random.Range(0,_enemy.Chars.Length-1));
         char randomChar = _enemy.Chars[randomCharIndex];
+
         float angle = Vector2.Angle(Vector2.right, _direction);
+        if (_enemy.EmitPattern == EnemyEmitPattern.Diagonal)
+        {
+            angle += 45;
+        }
+
         controller.Initialize(_enemy.Projectile, randomChar, angle, _gm);
     }
 

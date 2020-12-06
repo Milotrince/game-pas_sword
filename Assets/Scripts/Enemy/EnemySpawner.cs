@@ -9,8 +9,8 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         char[] chars = new char[3] {'a', 'b', 'c'};
-        Projectile projectile = new Projectile(0.2f, track: true);
-        Enemy enemy = new Enemy(chars, 0.2f, projectile);
+        Projectile projectile = new Projectile(0.2f, bounces: 2);
+        Enemy enemy = new Enemy(chars, 1f, projectile);
         SpawnEnemy(enemy);
     }
 

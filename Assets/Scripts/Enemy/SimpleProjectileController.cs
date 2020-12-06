@@ -16,4 +16,8 @@ public class SimpleProjectileController : ProjectileController
     protected override void UpdateProjectile() {
         transform.position += _velocity;
     }
+
+    protected override void OnBounce() {
+        _velocity = -_velocity;
+    }
 }
